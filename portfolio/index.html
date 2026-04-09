@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ananda Krishnan Ramanujan - Mechanical Engineering Portfolio">
+    <title>Ananda Krishnan Ramanujan | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">AKR.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero fade-in">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h3>Hello, I'm</h3>
+                <h1>Ananda Krishnan Ramanujan</h1>
+                <p class="subtitle">Mechanical Engineering Student | Product Design | Robotics & Automation | IoT Systems</p>
+                <p class="bio">
+                    Final-year Mechanical Engineering student at Dayananda Sagar University, Bengaluru, 
+                    with hands-on experience in mechanical design, embedded systems, IoT integration, 
+                    and additive manufacturing. Currently interning at Florix Smart Infra Solutions, 
+                    building energy-generating infrastructure prototypes.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="https://drive.google.com/file/d/1y0GFOQlK1Cva1g7TZb_aTgFUlXYOWjaW/view?usp=drive_link" class="btn btn-outline" target="_blank">Download CV</a>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:ananda20031206@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- User to replace with actual profile photo -->
+                <img src="WhatsApp Image 2026-04-09 at 8.25.21 PM.jpeg" alt="Ananda Krishnan Ramanujan" id="profile-img" onerror="this.src='https://via.placeholder.com/400x400/1F4E79/FFFFFF?text=Photo+Placeholder'">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about bg-light fade-in">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content grid-2">
+                <div class="about-details card">
+                    <h3>Education</h3>
+                    <p><strong>Degree:</strong> Bachelor of Technology in Mechanical Engineering</p>
+                    <p><strong>University:</strong> Dayananda Sagar University, South Bengaluru, India (NAAC Accredited)</p>
+                    <p><strong>Duration:</strong> Aug 2022 – Jul 2026</p>
+                    <p><strong>CGPA:</strong> <span class="highlight">7.44</span></p>
+                </div>
+                <div class="about-coursework card">
+                    <h3>Relevant Coursework</h3>
+                    <div class="tags">
+                        <span>Industrial Automation and Robotics</span>
+                        <span>Machine Learning</span>
+                        <span>Microprocessors and Microcontrollers</span>
+                        <span>ANSYS Workbench</span>
+                        <span>Finite Element Method for Structural Analysis</span>
+                        <span>MATLAB</span>
+                        <span>Instrumentation and Control</span>
+                        <span>Kinematics and Dynamics of Machines</span>
+                        <span>Thermodynamics</span>
+                        <span>Fluid Mechanics</span>
+                        <span>Mechanical Vibrations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Interests Section -->
+    <section id="research" class="research fade-in">
+        <div class="container">
+            <h2 class="section-title">Research Interests</h2>
+            <div class="research-cards grid-3">
+                <div class="research-card">
+                    <div class="icon-wrap"><i class="fas fa-cubes"></i></div>
+                    <h3>Digital Twin Framework</h3>
+                    <p>For Additive Manufacturing Process Optimization.</p>
+                </div>
+                <div class="research-card">
+                    <div class="icon-wrap"><i class="fas fa-robot"></i></div>
+                    <h3>Soft Robotics</h3>
+                    <p>For Rehabilitation and Assistive Applications.</p>
+                </div>
+                <div class="research-card">
+                    <div class="icon-wrap"><i class="fas fa-cogs"></i></div>
+                    <h3>Hybrid Simulation</h3>
+                    <p>Additive–Subtractive Manufacturing Simulation for Precision Components.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills bg-light fade-in">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-columns grid-2">
+                <div class="skills-box">
+                    <h3><i class="fas fa-laptop-code"></i> Technical & Software</h3>
+                    <div class="skill-group">
+                        <h4>CAD & Design</h4>
+                        <div class="tags">
+                            <span>SolidWorks</span><span>AutoCAD</span><span>Fusion 360</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h4>FEA & CFD</h4>
+                        <div class="tags">
+                            <span>ANSYS</span><span>ABAQUS</span><span>ANSYS Fluent</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h4>Programming</h4>
+                        <div class="tags">
+                            <span>MATLAB</span><span>Python</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h4>Analysis</h4>
+                        <div class="tags">
+                            <span>Manufacturing Simulation</span><span>Process Optimization</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <h3><i class="fas fa-flask"></i> Laboratory & Hands-on</h3>
+                    <ul class="styled-list">
+                        <li><strong>Composite materials fabrication:</strong> Hand lay-up, Vacuum bagging, Curing</li>
+                        <li><strong>Material characterization:</strong> Tensile, Impact, Hardness, Fatigue, Microstructure</li>
+                        <li><strong>Machining:</strong> Lathe, Milling, Drilling, Grinding, CNC setup</li>
+                        <li><strong>Metrology:</strong> Vernier, Micrometer, CMM, Surface roughness measurement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects fade-in">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <div class="project-cards">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Sonic-Scout Robot</h3>
+                            <span class="date-badge">Feb – Mar 2025</span>
+                        </div>
+                        <ul class="styled-list">
+                            <li>Designed and developed an autonomous mobile robot for unknown environment navigation using ultrasonic sensors for real-time obstacle detection and avoidance.</li>
+                            <li>Programmed Arduino Uno to process sensor inputs, control motor movements, and execute obstacle-avoidance algorithms.</li>
+                            <li>Integrated chassis design, sensor placement, and control logic into a fully functional robotic system.</li>
+                            <li>Achieved real-time obstacle avoidance and autonomous path correction in dynamic and confined environments.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Tomato Disease Detection using IoT</h3>
+                            <span class="date-badge">Apr – May 2024</span>
+                        </div>
+                        <ul class="styled-list">
+                            <li>Designed a smart agricultural system detecting tomato leaf diseases using IoT sensors and image processing on Raspberry Pi and ESP32-CAM.</li>
+                            <li>Integrated temperature, humidity, and soil-moisture sensors with cloud-based real-time monitoring.</li>
+                            <li>Applied machine learning to identify Early Blight, Late Blight, and Leaf Spot — 80–85% field accuracy, up to 95% in lab conditions.</li>
+                            <li>Built a cloud dashboard for disease alerts and health analytics.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Topology Optimization & Metal AM of 250cc Engine Hanger</h3>
+                            <span class="date-badge">Oct 2025 – Apr 2026</span>
+                        </div>
+                        <ul class="styled-list">
+                            <li>Redesigned a 250cc motorcycle engine mounting bracket using topology optimization (SIMP) and FEA in ANSYS 2025 R2.</li>
+                            <li>Conducted static structural (300 N load) and thermal analysis (170°C) to simulate real-world conditions.</li>
+                            <li>Achieved ~14–29% weight reduction while maintaining a high factor of safety (~19).</li>
+                            <li>Optimized material distribution by removing low-stress regions without compromising strength.</li>
+                            <li>Selected AlSi10Mg alloy for its mechanical properties and AM compatibility.</li>
+                            <li>Built and validated a physical prototype using metal additive manufacturing (SLM / Powder Bed Fusion).</li>
+                            <li>Improved power-to-weight ratio, efficiency, and manufacturability.</li>
+                        </ul>
+                        <div class="tags" style="margin-top: 1rem;">
+                            <span>Topology Optimization</span><span>ANSYS</span><span>FEA</span><span>SolidWorks</span><span>Additive Manufacturing</span><span>SLM</span><span>AlSi10Mg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience bg-light fade-in">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Mechanical Design Intern</h3>
+                        <h4>Florix Smart Infra Solutions Pvt. Ltd., Bangalore, India</h4>
+                        <span class="date">Feb 2026 – Present</span>
+                        <ul class="styled-list">
+                            <li>Contributed to development of a smart infrastructure solution for footstep-based energy generation.</li>
+                            <li>Designed product concept and built the first working prototype.</li>
+                            <li>Handled complete mechanical design and prototyping of the system.</li>
+                            <li>Exhibited and demonstrated the prototype at NASSCOM 2026 event in Mumbai.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intern — MRO Division</h3>
+                        <h4>Hindustan Aeronautics Limited (HAL), Bengaluru, India</h4>
+                        <span class="date">Aug – Sep 2024</span>
+                        <ul class="styled-list">
+                            <li>Gained exposure to failure mode analysis, material fatigue assessment, and precision mechanical system testing.</li>
+                            <li>Assisted in inspection, calibration, and reliability evaluation of hydraulic and pneumatic systems.</li>
+                            <li>Learned maintenance optimization and data-driven reliability improvement in aerospace-grade systems.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications fade-in">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-cards grid-2">
+                <a href="https://drive.google.com/file/d/1rIbyCIPql6wM9gGU5l5iN9MPjnksnNPS/view?usp=drive_link" target="_blank" style="display: block;">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3>Metal Additive Manufacturing</h3>
+                            <p>SWAYAM (May – Oct 2025)</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1HHJQG5VD7JCKvv6Wdfkv32-_ymfydFY8/view?usp=drive_link" target="_blank" style="display: block;">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3>Product Design and Manufacturing Materials</h3>
+                            <p>SWAYAM (Nov 2024 – Apr 2025)</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1cYRgNUSXVbMszq2hLnDI4E8PhrHgPuR2/view?usp=drive_link" target="_blank" style="display: block;">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3>Hindustan Aeronautics Limited (HAL) Internship</h3>
+                            <p>Helicopter MRO Division</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1IhWLFqrQ0VzZIgzQPndsadiN7N0v64Dn/view?usp=sharing" target="_blank" style="display: block;">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3>Simulink Onramp</h3>
+                            <p>MathWorks</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/17HN9sSq72Tp-uv88VJQAQYnVAqFxKe3C/view?usp=sharing" target="_blank" style="display: block;">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3>MATLAB Onramp</h3>
+                            <p>MathWorks</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1dwoV601iUnU4Uf4qJYNTMwMPqXx4_RIZ/view?usp=drive_link" target="_blank" style="display: block;">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3>Evolving Horizons</h3>
+                            <p>Certificate</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/15WvbWLNCNOdZEWEYN1fd68dJxUW95n98/view?usp=drive_link" target="_blank" style="display: block;">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate cert-icon"></i>
+                        <div>
+                            <h3>ECODRIVE</h3>
+                            <p>Certificate</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact bg-light fade-in">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper grid-2">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>I am actively looking for opportunities and open to connecting for research, projects, or professional roles.</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ananda20031206@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+91 7736709263</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Ananda Krishnan</span>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ananda Krishnan Ramanujan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
